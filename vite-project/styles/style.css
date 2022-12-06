@@ -1,1 +1,18 @@
 @import url(variables.css);
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.hero {
+  background-color: var(--light-blue);
+}
+
+h1 {
+  font-size: var(--h1);
+  text-align: center;
+}
