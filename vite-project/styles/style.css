@@ -1,4 +1,5 @@
 @import url(variables.css);
+<<<<<<< HEAD
 html,
 body,
 * {
@@ -9,10 +10,13 @@ body,
 }
 
 .hero {
-  background-color: var(--light-blue);
+  background-color: var(--primary);
 }
-
-h1 {
+.main {
+  background-color: var(--secondary);
+  height: 90vh;
   font-size: var(--h1);
   text-align: center;
 }
+=======
+>>>>>>> parent of 0a34bc4 (custom properties L2 0:33)
