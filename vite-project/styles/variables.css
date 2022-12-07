@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 :root {
   /*Colors*/
   --light-blue: #2998ff;
@@ -9,11 +9,18 @@
   --black: #000;
 
   /*Intentions*/
-=======
+
+body {
+  background-color: cyan;
+
 body {
   background-color: cyan;
 }
 h1 {
   margin-top: 50rem;
+0:33)
 }
->>>>>>> parent of 0a34bc4 (custom properties L2 0:33)
+h1 {
+  margin-top: 50rem;
+}
+0:33)
