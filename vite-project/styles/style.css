@@ -21,15 +21,20 @@ h1 {
   font-size: var(--h1);
   text-align: center;
 }
-
+#btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .btn,
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 4rem;
+  padding: 1.5rem 5rem;
   display: inline-block;
-  margin: 1rem auto;
+  margin: auto;
+  margin-top: 2rem;
   font-size: 2rem;
   border: none;
   border-radius: 10rem;
