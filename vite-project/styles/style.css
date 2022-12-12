@@ -10,31 +10,32 @@ body,
 
 .hero {
   background-color: var(--primary);
+  border: 1rem solid black;
 }
 
 .main {
   background-color: var(--secondary);
-  height: 90vh;
+  height: 100vh;
 }
 
 h1 {
   font-size: var(--h1);
   text-align: center;
 }
-#btns {
+.btns {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--secondary);
 }
 .btn,
 .btn:link,
 .btn:visited {
-  text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 5rem;
+  padding: 2rem 3rem;
   display: inline-block;
-  margin: auto;
   margin-top: 2rem;
+  margin-left: 2rem;
   font-size: 2rem;
   border: none;
   border-radius: 10rem;

@@ -1,15 +1,16 @@
 import "../styles/style.css";
-document.querySelector("#cool").addEventListener("click", function () {
+import { DOM } from "./DOM";
+DOM.themebtn.addEventListener("click", function () {
   if (document.body.classList.contains("cool")) {
+    document.body.classList.add("warm");
+    document.body.classList.remove("cool");
+    DOM.themebtn.textContent = "Cool Theme";
   } else {
     document.body.classList.add("cool");
     document.body.classList.remove("warm");
+    DOM.themebtn.textContent = "Warm Theme";
   }
 });
-document.querySelector("#warm").addEventListener("click", function () {
-  if (document.body.classList.contains("cool")) {
-    document.body.classList.remove("cool");
-    document.body.classList.add("warm");
-  } else {
-  }
-});
+function createItems(name, price, image) {
+  DOM.items.insertAdjacentHTML("afterbegin", "");
+}
