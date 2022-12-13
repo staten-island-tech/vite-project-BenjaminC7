@@ -11,6 +11,9 @@ DOM.themebtn.addEventListener("click", function () {
     DOM.themebtn.textContent = "Warm Theme";
   }
 });
-function createItems(name, price, image) {
-  DOM.items.insertAdjacentHTML("afterbegin", "");
+function createItem(name, price, image) {
+  DOM.items.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="item"> <h3> ${name} </h3> <img id="img" src="${image}" alt="An image of ${name}" /> <p id="price">Price: $${price}</p> <button id="purchaseBtn">Purchase</button></div>`
+  );
 }
