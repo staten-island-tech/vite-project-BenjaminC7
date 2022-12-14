@@ -1,6 +1,7 @@
 const DOM = {
   themebtn: document.getElementById("themebtn"),
   items: document.getElementById("list"),
-  filterbtns: document.getElementById("filterBtns"),
+  priceFilter: document.getElementById("priceFilter"),
+  resetButton: document.getElementById("resetButton"),
 };
 export { DOM };
