@@ -1,9 +1,11 @@
 :root {
   /*Colors*/
-  --light-blue: #2998ff;
-  --dark-blue: #135cc5;
-  --light-red: #f87171;
-  --dark-red: #dc2626;
+  --light-blue: #3f51b5;
+  --dark-blue: #303f9f;
+  --purple: #7c4dff;
+  --light-amber: #ffc107;
+  --dark-amber: #ffa000;
+  --orange: #ff5722;
   --gray: #252c30;
   --black: #000;
 
@@ -15,14 +17,16 @@
   --h5: 1.5rem;
 
   /*Intentions*/
-  --primary: var(--light-blue);
-  --secondary: var(--dark-blue);
+  --primary: ;
+  --secondary: ;
 }
 .warm {
-  --primary: var(--light-red);
-  --secondary: var(--dark-red);
+  --primary: var(--light-amber);
+  --secondary: var(--dark-amber);
+  --accent: var(--orange);
 }
 .cool {
   --primary: var(--light-blue);
   --secondary: var(--dark-blue);
+  --accent: var(--purple);
 }

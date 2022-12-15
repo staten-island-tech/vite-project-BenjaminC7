@@ -5,11 +5,11 @@ DOM.themebtn.addEventListener("click", function () {
   if (document.body.classList.contains("cool")) {
     document.body.classList.add("warm");
     document.body.classList.remove("cool");
-    DOM.themebtn.textContent = "Cool Theme";
+    DOM.themebtn.textContent = "Night Theme";
   } else {
     document.body.classList.add("cool");
     document.body.classList.remove("warm");
-    DOM.themebtn.textContent = "Warm Theme";
+    DOM.themebtn.textContent = "Morning Theme";
   }
 });
 function createItem(name, price, image) {

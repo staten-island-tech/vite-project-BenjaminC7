@@ -10,7 +10,7 @@ body,
 
 .hero {
   background-color: var(--primary);
-  border: 1rem solid black;
+  border: 1rem solid var(--accent);
 }
 
 .main {
@@ -60,6 +60,8 @@ h2 {
   margin-right: 2rem;
   padding: 2rem;
   background-color: var(--primary);
+  border: 0.5rem solid var(--accent);
+  border-radius: 3rem;
 }
 #img {
   width: 2rem;
