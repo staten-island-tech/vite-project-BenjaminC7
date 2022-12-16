@@ -8,7 +8,7 @@ body,
   font-size: 62.5%;
 }
 
-.hero {
+.head {
   background-color: var(--primary);
   border: 1rem solid var(--accent);
 }
@@ -51,6 +51,7 @@ h2 {
 }
 #list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -93,4 +94,8 @@ h3 {
 #purchaseBtn:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
+#description {
+  font-size: var(--h4);
+  text-align: center;
 }
