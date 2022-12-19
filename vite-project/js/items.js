@@ -1,10 +1,21 @@
 const items = [
   {
-    name: "Letter F",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/LetterF.svg/1200px-LetterF.svg.png",
-    price: 45,
-    types: [],
+    name: "Adult Red Dragon",
+    image: "/RedDragon.jpg",
+    price: 500,
+    categories: ["dragon", "fire"],
+  },
+  {
+    name: "Beholder",
+    image: "/Beholder.jpg",
+    price: 300,
+    categories: ["aberration", "psychic"],
+  },
+  {
+    name: "Pikachu",
+    image: "/Pikachu.png",
+    price: 25,
+    categories: ["beast", "electric", "pokemon"],
   },
 ];
 export { items };
