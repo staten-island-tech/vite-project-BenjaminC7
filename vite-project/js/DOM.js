@@ -9,6 +9,8 @@ const DOM = {
   undeadFilter: document.getElementById("undeadFilter"),
   dragonFilter: document.getElementById("dragonFilter"),
   singingFilter: document.getElementById("singingFilter"),
+  waterFilter: document.getElementById("waterFilter"),
+  iceFilter: document.getElementById("iceFilter"),
   resetButton: document.getElementById("resetButton"),
 };
 export { DOM };

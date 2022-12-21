@@ -33,13 +33,13 @@ const items = [
     name: "Mammott",
     image: "/Mammott.webp",
     price: 29.99,
-    categories: ["singing", "ice"],
+    categories: ["singing", "ice", "beast"],
   },
   {
     name: "Maw",
     image: "/Maw.webp",
     price: 49.99,
-    categories: ["singing", "ice", "water"],
+    categories: ["singing", "ice", "water", "beast"],
   },
   {
     name: "Mimikyu",
