@@ -22,8 +22,20 @@ items.forEach((item) => createItem(item.name, item.price, item.image));
 
 DOM.lowPriceFilter.addEventListener("click", function () {
   DOM.items.innerHTML = "";
-  const sub30 = items.filter((item) => item.price < 30);
-  sub30.forEach((item) => createItem(item.name, item.price, item.image));
+  const filtered = items.filter((item) => item.price < 30);
+  filtered.forEach((item) => createItem(item.name, item.price, item.image));
+});
+DOM.highPriceFilter.addEventListener("click", function () {
+  DOM.items.innerHTML = "";
+  const filtered = items.filter((item) => item.price > 100);
+  filtered.forEach((item) => createItem(item.name, item.price, item.image));
+});
+DOM.aberrationFilter.addEventListener("click", function () {
+  DOM.items.innerHTML = "";
+  const filtered = items.filter((item) =>
+    item.categories.includes("aberration")
+  );
+  filtered.forEach((item) => createItem(item.name, item.price, item.image));
 });
 DOM.resetButton.addEventListener("click", function () {
   DOM.items.innerHTML = "";

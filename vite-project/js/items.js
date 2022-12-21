@@ -72,7 +72,7 @@ const items = [
     categories: ["dragon", "ground", "pokemon"],
   },
   {
-    name: "Evil Snowman",
+    name: "Mafia Snowman",
     image: "/Mafia_Snowman.png",
     price: 7.99,
     categories: ["ice"],
