@@ -33,6 +33,7 @@ h2 {
   justify-content: center;
   align-items: center;
   background-color: var(--secondary);
+  flex-wrap: wrap;
 }
 .btn,
 .btn:link,

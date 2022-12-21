@@ -20,7 +20,7 @@ function createItem(name, price, image) {
 }
 items.forEach((item) => createItem(item.name, item.price, item.image));
 
-DOM.priceFilter.addEventListener("click", function () {
+DOM.lowPriceFilter.addEventListener("click", function () {
   DOM.items.innerHTML = "";
   const sub30 = items.filter((item) => item.price < 30);
   sub30.forEach((item) => createItem(item.name, item.price, item.image));

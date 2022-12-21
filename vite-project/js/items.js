@@ -1,6 +1,6 @@
 const items = [
   {
-    name: "Adult Red Dragon",
+    name: "Red Dragon",
     image: "/RedDragon.jpg",
     price: 499.99,
     categories: ["dragon", "fire"],
@@ -76,6 +76,42 @@ const items = [
     image: "/Mafia_Snowman.png",
     price: 7.99,
     categories: ["ice"],
+  },
+  {
+    name: "White Dragon",
+    image: "/White_Dragon.webp",
+    price: 499.99,
+    categories: ["ice", "dragon"],
+  },
+  {
+    name: "Amygdala",
+    image: "/Amygdala.png",
+    price: 699.99,
+    categories: ["aberration"],
+  },
+  {
+    name: "Momoo",
+    image: "/Momoo.webp",
+    price: 89.99,
+    categories: ["water", "beast"],
+  },
+  {
+    name: "Swampert",
+    image: "Swampert.png",
+    price: 99.99,
+    categories: ["water", "ground", "pokemon"],
+  },
+  {
+    name: "Mimic",
+    image: "Mimic.png",
+    price: 49.99,
+    categories: ["aberration"],
+  },
+  {
+    name: "Zombie",
+    image: "Zombie.webp",
+    price: 4.99,
+    categories: ["undead"],
   },
 ];
 export { items };
