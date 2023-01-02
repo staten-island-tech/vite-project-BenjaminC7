@@ -61,5 +61,6 @@ DOM.iceFilter.addEventListener("click", function () {
   categoryFilter("ice");
 });
 DOM.resetButton.addEventListener("click", function () {
+  DOM.items.innerHTML = "";
   items.forEach((item) => createItem(item.name, item.price, item.image));
 });
